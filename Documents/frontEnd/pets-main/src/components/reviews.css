@@ -1,7 +1,4 @@
-.pet-img {
-	width: 40%;
-	border-radius: 60%;
-}
+
 
 .review-container {
 	background-color: #999999;
@@ -24,7 +21,7 @@
 
 .review1, .review2, .review3, .review4 {
 	background-color: white;
-	height: 250px;
+	height: 275px;
 	width: 150px;
 	color: black;
     display: flex;
@@ -37,8 +34,6 @@
 .cust-name-title {
 	background-color: white;
 	color: black;
-	display: flex;
-	justify-content: center;
 }
 
 .cust-review-para {
@@ -49,10 +44,12 @@
 
 .cust-review-img, .cust-review-img2, .cust-review-img3, .cust-review-img4 {
 	width: 20%;
-    height: 20%;
     border-radius: 50%;
-    position: relative;
-    margin-top: 10%;
+}
+
+.cust-review-img3 {
+    margin-top: 30%;
+    width: 30%;
 }
 
 .review-stars {
