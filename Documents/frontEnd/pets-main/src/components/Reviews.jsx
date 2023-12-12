@@ -1,9 +1,11 @@
 import React from "react";
 
+import "./reviews.css"
 
 import review1 from "../components/images/review1.png";
 import review2 from "../components/images/review2.png";
 import review3 from "../components/images/review3.png";
+import review4 from "../components/images/review4.png"
 
 import reviewStars from "../components/images/review-stars.png";
 
@@ -55,7 +57,7 @@ export default function Reviews() {
 						<img
 							className="cust-review-img3"
 							src={review3}
-							alt="customer-image2"
+							alt="customer-image3"
 						/>
 						<img
 							src={reviewStars}
@@ -69,6 +71,22 @@ export default function Reviews() {
 							friend as much as he needs. My PNN guy is really awesome and will
 							stay with my guy while I'm away responding to emergencies at all
 							hours. I don't know what I'd do without them!
+						</p>
+					</div>
+					<div className="review4">
+						<img
+							className="cust-review-img4"
+							src={review4}
+							alt="customer-image4"
+						/>
+						<img
+							src={reviewStars}
+							alt="review-stars"
+							className="review-stars"
+						/>
+						<h6 className="cust-name-title">Jane Doe</h6>
+						<p className="cust-review-para">I love PNN and so does my dog!
+							
 						</p>
 					</div>
 				</div>
