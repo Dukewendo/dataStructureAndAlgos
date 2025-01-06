@@ -1,0 +1,15 @@
+
+.pet-img {
+	width: 40%;
+	border-radius: 60%;
+}
+
+.main-page-container {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto;
+	justify-items: center;
+}
+
+
+
